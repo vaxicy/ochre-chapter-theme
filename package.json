@@ -1,0 +1,59 @@
+{
+  "name": "ochre-chapter-theme",
+  "displayName": "Ochre & Chapter Theme",
+  "description": "Four autumn chapters: knit, christmas, cookie and leaves.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "autumn",
+    "ochre",
+    "chapter",
+    "knit",
+    "cookie",
+    "leaves",
+    "harvest"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#2A1210",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/ochre-chapter-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ochre & Chapter Knit",
+        "uiTheme": "vs",
+        "path": "./themes/ochre-chapter-knit-color-theme.json"
+      },
+      {
+        "label": "Ochre & Chapter Christmas",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ochre-chapter-christmas-color-theme.json"
+      },
+      {
+        "label": "Ochre & Chapter Cookie",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ochre-chapter-cookie-color-theme.json"
+      },
+      {
+        "label": "Ochre & Chapter Leaves",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ochre-chapter-leaves-color-theme.json"
+      }
+    ]
+  }
+}
